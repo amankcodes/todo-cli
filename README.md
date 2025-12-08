@@ -9,17 +9,11 @@ A small, full-featured terminal Todo list application in Python.
 - Simple unit tests
 - Easy to run
 
-## Run
-Requires Python 3.8+.
-```bash
-python main.py --help
-```
-
-## Examples
-```bash
-python main.py add "Buy groceries" --tags shopping,errands --due 2025-12-20
-python main.py list --all
-python main.py done 1
-python main.py edit 2 --title "New title"
-python main.py remove 3
-```
+todo_cli_project/
+│
+├── main.py              # CLI application
+├── todos.json           # Persistent storage
+├── requirements.txt     # Dependencies
+├── README.md            # Documentation
+└── tests/
+    └── test_main.py     # Basic tests

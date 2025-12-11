@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Todo CLI - main script
 Usage: python main.py <command> [options]
